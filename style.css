@@ -1,0 +1,44 @@
+#main-header {
+  top: 0;
+  background: white;
+  position: sticky;
+  text-align: center;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid silver;
+  z-index: 777;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+.icon {
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: center/cover;
+}
+
+.i-menu {
+  background-image: url(./images/menu.svg);
+}
+
+.i-search {
+  background-image: url(./images/magnify.svg);
+}
+
+.icon-button {
+  border-radius: 3px;
+  cursor: pointer;
+  transition: ease 0.6s;
+}
+
+.icon-button:hover {
+  background-color: #f7f7f7;
+}
