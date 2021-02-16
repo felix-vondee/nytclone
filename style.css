@@ -86,3 +86,52 @@ button {
   border: 1px solid rgb(102, 102, 102);
   border-radius: 4px;
 }
+
+.further-article {
+  display: grid;
+  grid-gap: 8px;
+}
+
+.further-article figcaption {
+  font: 10px cheltenham, Georgia, 'Times New Roman', Times, serif;
+  text-align: right;
+}
+
+#further-readings h2 {
+  grid-column: 1 / -1;
+  font: 700 1rem/1.4rem franklin, Georgia, 'Times New Roman', Times, serif;
+}
+
+#further-readings a {
+  color: black;
+  text-decoration: none;
+}
+
+#further-readings h3 {
+  font: 500 1.1rem/1.3rem cheltenham, Georgia, 'Times New Roman', Times, serif;
+}
+
+#site-index a {
+  color: black;
+  font-family: franklin, Georgia, 'Times New Roman', Times, serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16px;
+  text-decoration: none;
+}
+
+#footer-links a {
+  font: 11px franklin, Georgia, 'Times New Roman', Times, serif;
+  padding-bottom: 20px;
+  text-decoration: none;
+  color: #666;
+}
+
+#further-readings a:hover {
+  color: rgb(102, 102, 102);
+}
+
+.further-article span {
+  color: rgb(153, 153, 153);
+  font: 0.75rem/1.25rem franklin, Georgia, 'Times New Roman', Times, serif;
+}
