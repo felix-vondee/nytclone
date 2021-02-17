@@ -201,30 +201,6 @@ img {
   align-items: center;
 }
 
-.editors-picks {
-  float: right;
-}
-
-.edit-text {
-  font-size: 20px;
-}
-
-.text-edit {
-  font-size: 14px;
-  color: #000;
-  float: left;
-}
-
-.h33 .text-edit {
-  float: left;
-  display: inline;
-}
-
-.ed-img {
-  width: 75px;
-  height: 75px;
-}
-
 .social-links button img:hover {
   filter: invert(100%);
 }
@@ -789,4 +765,8 @@ ul.nav {
   list-style: none;
   margin: 0;
   padding: 0;
+}
+
+.ed {
+  font-size: 15px;
 }
