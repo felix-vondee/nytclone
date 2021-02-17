@@ -1,11 +1,11 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # NY-TIMES-ARTICLE-CLONE
 
 > This project is a clone of the following NY Times article:  https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0 
 > The goal was to master positioning and floating elements 
 
-![screenshot](./assets/images/screenshot.png)
+![screenshot](https://user-images.githubusercontent.com/55915241/108219963-e93e0900-713e-11eb-9651-e82d66c4ab1a.png)
+
 
 ## Built With
 
