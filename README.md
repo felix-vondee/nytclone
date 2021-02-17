@@ -5,7 +5,7 @@
 > This project is a clone of the following NY Times article:  https://www.nytimes.com/2014/03/18/science/space/detection-of-waves-in-space-buttresses-landmark-theory-of-big-bang.html?_r=0 
 > The goal was to master positioning and floating elements 
 
-![screenshot](./screenshot.png)
+![screenshot](./assets/images/screenshot.png)
 
 ## Built With
 
@@ -15,7 +15,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link]( https://felix-vondee.github.io/nytclone)
 
 
 ## Getting Started
