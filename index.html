@@ -292,6 +292,50 @@
           </nav>
         </section>
       </div>
+      <div class="form">
+        <h3 class="form-header">Give us feedback</h3>
+        <form action="#" method="POST">
+          <ul>
+            <li>
+              <label for="name">Enter Your Name:</label>
+              <input type="text" id="name" name="user_name" required maxlength="20">
+            </li>
+            <li>
+              <label for="email">Enter Your Email:</label>
+              <input type="email" id="email" name="user_email" required maxlength="20">
+            </li>
+            <li><label for="comment">Leave a comment:</label>
+              <textarea id="comment" maxlength="250"></textarea>
+            </li>
+            <li>
+              <label class="opinion">What is your overall opinion about this article?</label>
+              <ul>
+                <li>
+                  <input type="radio" id="pos" name="opinion" value="positive">
+                  <label for="pos">Positive</label><br>
+                </li>
+                <li>
+                  <input type="radio" id="neg" name="opinion" value="negative">
+                  <label for="neg">Negative</label><br>
+                </li>
+                <li>
+                  <input type="radio" id="neutral" name="opinion" value="neutral">
+                  <label for="neutral">Neutral</label>
+                </li>
+              </ul>
+            </li>
+      
+            <li class="newsltr">
+              <input type="checkbox" id="news" name="yes" value="yes">
+              <label for="news">I want to subscribe to the newsletter</label>
+            </li>
+      
+            <li class="form-button">
+              <button type="submit">Send</button>
+            </li>
+          </ul>
+        </form>
+      </div>
       <nav id='site-index'>
         <header>
           <a href="" class="logo-link">

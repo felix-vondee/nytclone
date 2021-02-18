@@ -732,6 +732,13 @@ article footer p {
   margin-right: 40px;
 }
 
+/* form styling */
+li + li {
+  margin-top: 2em;
+}
+
+/* form styling */
+
 .main-aside li {
   margin-top: 15px;
 }
@@ -769,4 +776,59 @@ ul.nav {
 
 .ed {
   font-size: 15px;
+}
+
+.form-header {
+  font-size: 30px;
+  margin: 8vh 0 2vh;
+  justify-content: right;
+}
+
+form {
+  margin: 0 20em;
+  padding: 1em;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+label {
+  display: inline;
+  width: 90px;
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+input,
+textarea {
+  font: 1em sans-serif;
+  width: 300px;
+  box-sizing: border-box;
+  border: 1px solid #999;
+}
+
+textarea {
+  vertical-align: top;
+  height: 10em;
+}
+
+input:focus,
+textarea:focus {
+  border-color: lightblue;
+}
+
+.newsletr {
+  margin: 0;
+}
+
+.form-button > button {
+  background-color: #326891;
+  width: 5rem;
+  border-radius: 5px;
+  align-content: center;
+  height: 2rem;
 }
